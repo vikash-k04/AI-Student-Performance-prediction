@@ -1,6 +1,6 @@
 # AI-Driven Student Performance Prediction System
 
-A Flask-based machine-learning project that predicts a student's final grade (0–100%) from study habits, attendance, previous performance, wellbeing, and selected study-context information.
+A  machine-learning project that predicts a student's final grade (0–100%) from study habits, attendance, previous performance, wellbeing, and selected study-context information.
 
 ## Features
 
@@ -24,7 +24,7 @@ Open `http://127.0.0.1:5000`.
 
 ## Model evaluation
 
-The included model was trained on 80,000 records and evaluated on 20,000 held-out records. Run `python src\train.py` after changing the dataset to generate a fresh model and metrics file.
+The included model was trained on 2,40,000 records and evaluated on 60,000 held-out records. Run `python src\train.py` after changing the dataset to generate a fresh model and metrics file.
 
 ## Project files
 
