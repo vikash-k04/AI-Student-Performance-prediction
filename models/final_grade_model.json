@@ -1,0 +1,52 @@
+{
+  "feature_names": [
+    "age",
+    "study_hours",
+    "attendance",
+    "sleep_hours",
+    "previous_grade",
+    "assignments_completed",
+    "practice_tests_taken",
+    "group_study_hours",
+    "motivation_level",
+    "mental_health_score",
+    "screen_time",
+    "social_media_hours",
+    "time_management_score",
+    "notes_quality_score",
+    "gender=Male",
+    "gender=Other",
+    "internet_access=Yes"
+  ],
+  "coefficients": [
+    -71.0717378087444,
+    0.006234335863707047,
+    2.6404140953123094,
+    0.26391277885554204,
+    0.9923609708478447,
+    0.32914164985468103,
+    1.9762164370954107,
+    1.3238857743611885,
+    0.9756587006769676,
+    1.976039239137856,
+    1.323291317323003,
+    -0.9904229433470519,
+    -1.327653813405663,
+    1.9814415438307196,
+    1.3190299278605178,
+    0.007717767588580805,
+    0.017430530695710454,
+    -0.024494908120139026
+  ],
+  "category_values": {
+    "gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "internet_access": [
+      "No",
+      "Yes"
+    ]
+  }
+}
