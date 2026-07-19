@@ -1,16 +1,54 @@
-# AI-Driven Student Performance Prediction System
+<h1 align="center">🎓 AI-Driven Student Performance Prediction System</h1>
 
-A  machine-learning project that predicts a student's final grade (0–100%) from study habits, attendance, previous performance, wellbeing, and selected study-context information.
+<p align="center">
+  Predict student academic performance using Machine Learning and Flask.
+</p>
 
-## Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
+  <img src="https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Linear%20Regression-orange">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+</p>
 
-- Final grade prediction, grade band, and pass status
-- 14 data-aligned student questions
-- Personalized study recommendations
-- Result chart comparing predicted grade, previous grade, attendance, and study time
-- Visible evaluation metrics: R², MAE, and RMSE
+---
 
-## Run
+## 📖 About
+
+This project is a **Flask-based Machine Learning web application** that predicts a student's final academic grade using study habits, attendance, previous performance, and other academic factors.
+
+The application also provides personalized recommendations to help students improve their performance.
+
+---
+
+## ✨ Features
+
+- 🎯 Predict final student grades
+- 🤖 Machine Learning-based prediction
+- 📊 Interactive performance chart
+- 💡 Personalized recommendations
+- 📈 Displays R² Score and MAE
+- 🌐 Responsive web interface
+
+## 📂 Project Structure
+
+```text
+📦 Student-Performance-Prediction
+├── 📁 dataset
+├── 📁 models
+├── 📁 src
+├── 📁 static
+├── 📁 templates
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
 
 ```bat
 python -m venv .venv
@@ -20,15 +58,44 @@ python src\train.py
 python app.py
 ```
 
-Open `http://127.0.0.1:5000`.
 
-## Model evaluation
 
-The included model was trained on 2,40,000 records and evaluated on 60,000 held-out records. Run `python src\train.py` after changing the dataset to generate a fresh model and metrics file.
 
-## Project files
+Visit:
 
-- `dataset/student_performance_full.csv` — supplied training data
-- `src/train.py` — reproducible regression training script
-- `models/final_grade_model.json` — generated model
-- `models/metrics.json` — evaluation results
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+> ![alt text](image.png) 
+
+### 📊 Prediction Result
+
+> ![alt text](image-1.png)
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔐 User Authentication
+- ☁️ Cloud Deployment
+- 📄 PDF Report Generation
+- 📈 Advanced ML Models
+- 📊 Prediction History
+
+---
+
+## 👨‍💻 Author
+
+**Vikash Kushwaha**
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
+
+
+
